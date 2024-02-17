@@ -5,18 +5,16 @@ body {
 
 /* header styles */
 .header{
-    height: 800px;
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    padding-top: 230px;
-    
-    
+    padding-top: 230px; 
+    padding-bottom: 165px;
 }
 
 .header-content {
-    margin: 0px 215px 165px 850px;
+    margin: 0px 215px 0px 850px;
 
 }
 
@@ -52,3 +50,47 @@ body {
 }
 
 /* body styles */
+
+/* failure styles */
+
+.failure{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.failure > img{
+    margin: 130px 0 130px 200px;
+}
+.failure-content{
+    margin-right: 315px;
+}
+
+.failure-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 24px;
+
+}
+.failure-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure ul{
+    padding-left: 0px;
+}
+.failure li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+.failure i{
+    color: #16D887;
+}
